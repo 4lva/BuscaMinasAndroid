@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nuevo"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="N"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/instrucciones"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="I"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/dificultad"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="dificultad"
+        app:showAsAction="always" />
+</menu>
